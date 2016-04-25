@@ -1,0 +1,191 @@
+
+body {
+    background-image:url(../images/KYIV.JPG);
+    background-position: center;
+    background-attachment:fixed;
+    
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    width: 100%;
+    position: relative;
+    top: -45px;
+}
+
+#header {
+    
+    background: linear-gradient(-45deg, blue, navy);
+    background-position: center;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Actor', sans-serif;
+    font-size: 35px;
+    padding-bottom: 55px;
+    color: gold;
+     
+    text-shadow: 0 1px 0 #ccc,
+               0 4px 0 black,
+               0 3px 0 #bbb,
+               0 3px 0 red,
+               0 9px 0 black,
+               0 8px 1px rgba(0,0,0,.1),
+               0 0 4px rgba(0,0,0,.1),
+               0 7px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 10px 10px red;
+    margin-bottom: -25px;
+    /* attempt to make attractive logo */
+    
+    
+
+}
+
+#menubar {
+    width: 100%;
+   
+    background: linear-gradient(to bottom right, orange, yellow);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 55px;
+    margin-bottom: 5px;
+    
+    }
+
+#menubar ul {
+    display: table; 
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+   
+
+    
+}
+#menubar li {
+
+    display:table-cell;
+    text-align: center;
+    font-weight: bolder;
+    width: 20%;
+    text-shadow: -1px -1px 1px orange, 1px 1px 1px #000;
+	color: #9c8468;
+	opacity: 0.9;
+	
+
+	
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+#menubar a {
+     
+    text-decoration: none;
+}
+
+ul li  {
+    list-style-type: none;
+
+}
+ul li a:hover {
+    color: blue;
+}
+#content { 
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 80%;
+    background: linear-gradient(to bottom, rgba(255,255,255,2),
+  rgba(255,255,255,0));
+   
+    margin: auto;
+    
+    text-align: center;
+    border: black solid 2px;
+}
+
+#content h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+    text-align:center;
+    margin-top: 1px;
+    font-family: 'Noto Sans', sans-serif;
+   /* attempt to make attractive introduction */
+   -webkit-text-stroke-color: black;
+   -webkit-text-stroke-width: 1px;
+   color: white;
+   text-shadow:
+       3px 2px 0 black;
+}
+
+
+.flag {
+    float: left;
+    position: relative;
+    bottom: 182px;
+    height: 100px;
+
+}
+
+
+
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    /* 1em = 20px */
+    
+}
+
+
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    height: auto;
+}
+
+.pechers {
+    
+    margin: 10px;
+}
+
+.war {
+    margin: 10px;
+}
+
+.motherland {
+    margin: 10px;
+}
+
+.mummy {
+    margin: 10px;
+}
+
+/* Photos given unique id's in order to manipulate efficiently */
+
+
+FIGCAPTION {
+
+font-family: 'Rambla', sans-serif;
+font-size: 25px;
+font-style: italic;
+font-variant: small-caps;
+color: blue;
+
+}
+
+#footer {
+    width: 100%;
+    background-image: url("../images/Embroidery_of_Ukraine_12.png");
+    background-repeat: repeat-x;
+    height: 95px;
+    position: relative;
+    bottom: -5px;
+}
