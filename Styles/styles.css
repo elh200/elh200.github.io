@@ -95,7 +95,7 @@ ul li  {
 
 }
 ul li a:hover {
-    color: blue;
+    color: red;
 }
 #content { 
     padding-top: 10px;
