@@ -122,21 +122,8 @@ ul li a:hover {
     text-align: center;
     border: black solid 2px;
 }
-
+/* Height for Home and Links page in order to keep scrool bar consistency */
 #content h2 {
-    font-size: 40px;
-    margin-bottom: 5px;
-    text-align:center;
-    margin-top: 1px;
-    font-family: 'Noto Sans', sans-serif;
-   /* attempt to make attractive introduction */
-   -webkit-text-stroke-color: black;
-   -webkit-text-stroke-width: 1px;
-   color: white;
-   text-shadow:
-       3px 2px 0 black;
-}
-#content1 h2 {
     font-size: 40px;
     margin-bottom: 5px;
     text-align:center;
